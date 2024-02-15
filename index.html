@@ -11,7 +11,27 @@
     <header id="header">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
-      <h2>✨ Open the Console to See What's Happening ✨</h2>
+      <h2>✨ Open the Console to See What's Happening ✨</h2>const topics = ['HTML', 'CSS', 'Git', 'JavaScript'];
+
+      function listTopics() {
+       for (let x = 0; x < topics.length; x++) {
+         console.log(topics[x]);
+       }
+      }
+      
+      function selectTopic() {
+       if (topic === 'HTML') {
+         console.log("Let's study HTML!");
+       } else if (topic === 'CSS') {
+         console.log("Let's study CSS!");
+       } else if (topic === 'Git') {
+         console.log("Let's study Git!");
+       } else if (topic === 'JavaScript') {
+         console.log("Let's study JavaScript!");
+       } else {
+         console.log('Please try again!');
+       }
+      }
     </header>
     <main>
       <section class="card" id="html-section">
@@ -45,7 +65,12 @@
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
-          <li>Enter your JavaScript notes here</li>
+          <li>A variable is a named container that allows us to store data in our code.</li>
+          <li>Control flow is the order in which a computer executes code in a script.</li>
+          <li>We us for loops to run through an Array</li>
+          <li> When we ceate a funtion we are making a reusable block of code to execute tasks</li>
+          <li> make sure to call your function for it to execute properly</li>
+
         </ul>
       </section>
     </main>
